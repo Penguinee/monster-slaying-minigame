@@ -1,0 +1,8 @@
+.select {
+    margin-bottom: 10px;
+
+    &:focus {
+        border: 1px solid #ddd;
+        outline: none;
+    }
+}

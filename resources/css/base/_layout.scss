@@ -1,0 +1,43 @@
+@component SearchForm {
+    margin: 0;
+    padding: 0;
+
+    @modifier advanced {
+        padding: 1rem;
+    }
+
+    @descendent textField {
+        border: 1px solid #ccc;
+
+        @when invalid {
+            border: 1px solid #ff0000;
+        }
+    }
+}
+
+
+
+body {
+    font-family: arial, verdana;
+}
+
+.result-wrapper {
+    display: none;
+    margin-top: 20px;
+}
+
+.result {
+    margin-bottom: 10px;
+
+    &--red {
+        color: #f43030;
+    }
+
+    &--green {
+        color: #7de276;
+    }
+}
+
+.heroStats__data {
+    margin-bottom: 10px;
+}

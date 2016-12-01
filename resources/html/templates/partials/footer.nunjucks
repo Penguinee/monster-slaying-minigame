@@ -1,0 +1,2 @@
+<footer></footer>
+<script async src="/js/require.js" id="requireJs" data-main="/js/application" data-version="1"></script>

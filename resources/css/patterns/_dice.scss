@@ -1,0 +1,115 @@
+.dice {
+    display: none;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    &__dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #000;
+    }
+
+    .dice__1 {
+        @include position(absolute, 50% null null 50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .dice__2 {
+        &:nth-child(1) {
+            @include position(absolute, 5px null null 5px);
+        }
+
+        &:nth-child(2) {
+            @include position(absolute, null 5px 5px null);
+        }
+    }
+
+    .dice__3 {
+        &:nth-child(1) {
+            @include position(absolute, 5px null null 5px);
+        }
+
+        &:nth-child(2) {
+            @include position(absolute, 40% null null 42%);
+        }
+
+        &:nth-child(3) {
+            @include position(absolute, null 5px 5px null);
+        }
+
+    }
+
+    .dice__4 {
+        &:nth-child(1) {
+            @include position(absolute, 5px null null 5px);
+        }
+
+        &:nth-child(2) {
+            @include position(absolute, 5px 5px null null);
+        }
+
+        &:nth-child(3) {
+            @include position(absolute, null null 5px 5px);
+        }
+
+        &:nth-child(4) {
+            @include position(absolute, null 5px 5px null);
+        }
+
+    }
+
+    .dice__5 {
+        &:nth-child(1) {
+            @include position(absolute, 5px null null 5px);
+        }
+
+        &:nth-child(2) {
+            @include position(absolute, 5px 5px null null);
+        }
+
+        &:nth-child(3) {
+            @include position(absolute, null null 5px 5px);
+        }
+
+        &:nth-child(4) {
+            @include position(absolute, null 5px 5px null);
+        }
+
+        &:nth-child(5) {
+            @include position(absolute, 40% 40% null null);
+        }
+
+    }
+
+    .dice__6 {
+        &:nth-child(1) {
+            @include position(absolute, 5px null null 5px);
+        }
+
+        &:nth-child(2) {
+            @include position(absolute, 5px 5px null null);
+        }
+
+        &:nth-child(3) {
+            @include position(absolute, null null 5px 5px);
+        }
+
+        &:nth-child(4) {
+            @include position(absolute, null 5px 5px null);
+        }
+
+        &:nth-child(5) {
+            @include position(absolute, 40% null null 5px);
+        }
+
+        &:nth-child(6) {
+            @include position(absolute, 40% 5px null null);
+        }
+    }
+
+}

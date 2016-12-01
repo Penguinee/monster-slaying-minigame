@@ -1,0 +1,61 @@
+{% extends 'layout.nunjucks' %}
+{% block content %}
+    <div class="container game">
+
+	    <div class="row m-t-1">
+	    	<div class="col-md-6">
+				<fieldset class="form-group">
+					<h4>Select Character</h4>
+					<select class="select heroSelect form-control">
+						<option value="">No selection</option>
+						<option>Hero 1</option>
+						<option>Hero 2</option>
+					</select>
+				</fieldset>
+
+				<!-- heroStats -->
+				{% include 'partials/hero.nunjucks' %}
+				<!-- /heroStats -->
+
+	    	</div>
+	    	<div class="col-md-6">
+				<fieldset class="form-group">
+					<h4>Select Monster</h4>
+					<select class="select monsterSelect form-control">
+						<option value="">No selection</option>
+						<option>Orc</option>
+						<option>Dragon</option>
+					</select>
+				</fieldset>
+	    	</div>
+	    </div><!-- /row -->
+
+		<button href="#" type="button" class="btn btn-primary startButton">Start Game</button>
+
+		<div class="card card-block result-wrapper">
+			<h4 class="card-title">Adventure</h4>
+			<div class="dice">
+
+			</div>
+			<div class="potions">
+				<a href="#" class="healthPotion">
+					<img src="/img/potion.png" alt="health potion">
+				</a>
+				<a href="#" class="healthPotion">
+					<img src="/img/potion.png" alt="health potion">
+				</a>
+				<a href="#" class="healthPotion">
+					<img src="/img/potion.png" alt="health potion">
+				</a>
+			</div>
+			<p class="card-text">
+				<div class="result"></div>
+				<span>Lifes Hero: </span><div class="hero"></div>
+				<span>Lifes Monster: </span><div class="monster"></div>
+			</p>
+			<button href="#" type="button" class="btn btn-default hitButton">Hit Monster</button>
+		</div>
+
+	</div><!-- /game -->
+
+{% endblock %}

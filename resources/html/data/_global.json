@@ -1,0 +1,12 @@
+{
+	"menu": [
+		{
+			"name": "home",
+			"link": "#"
+		},
+		{
+			"name": "link-1",
+			"link": "#"
+		}
+	]
+}

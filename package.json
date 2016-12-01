@@ -1,0 +1,44 @@
+{
+  "name": "sdl.boilerplate",
+  "description": "Boilerplate for projects",
+  "version": "1.0.0",
+  "homepage": "-",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "scripts": {
+    "gulp": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "devDependencies": {
+    "app-module-path": "^1.0.6",
+    "autoprefixer": "^6.3.3",
+    "browser-sync": "^2.12.5",
+    "del": "^2.1.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-add-src": "^0.2.0",
+    "gulp-clean-css": "^2.0.7",
+    "gulp-concat": "^2.6.0",
+    "gulp-data": "^1.2.1",
+    "gulp-if": "^2.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "uglify-js-harmony":"^2.6.2",
+    "postcss-bem": "^0.4.1",
+    "require-new": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.2",
+    "bourbon": "^4.2.6",
+    "font-awesome": "^4.4.0",
+    "jquery": "^2.2.2",
+    "sanitize.css": "^3.0.0",
+    "tether": "^1.2.0"
+  }
+}

@@ -1,0 +1,22 @@
+<div class="card card-block">
+	<h4 class="card-title">Hero stats</h4>
+	<p class="card-text">
+		<div class="heroStats">
+			<div class="heroStats__data">
+				Weapon: <div class="weapon">-</div>
+			</div>
+			<div class="heroStats__data">
+				Health: <div class="health">-</div>
+			</div>
+			<div class="heroStats__data">
+				Damage per hit: <div class="damagePerHit">-</div>
+			</div>
+			<div class="heroStats__data">
+				Defense: <div class="defense">-</div>
+			</div>
+			<div class="heroStats__data">
+				Type: <div class="type">-</div>
+			</div>
+		</div><!-- /heroStats -->
+	</p>
+</div>

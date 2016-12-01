@@ -1,0 +1,10 @@
+.healthPotion {
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:focus {
+        border: 0;
+        outline: none;
+    }
+}

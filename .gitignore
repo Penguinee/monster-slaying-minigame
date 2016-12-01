@@ -1,0 +1,7 @@
+/public/clickdummy
+/public/css
+/public/js
+node_modules
+
+*.log
+*.sublime-*
